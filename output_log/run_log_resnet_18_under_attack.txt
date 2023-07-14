@@ -1,0 +1,179 @@
+[INFO] current used device: cuda
+[INFO] Creating dataloader for test dataset splits
+[INFO] Creating Poisones dataloader for test dataset splits
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:12<01:55, 12.81s/it] 20%|██        | 2/10 [00:25<01:40, 12.55s/it] 30%|███       | 3/10 [00:37<01:27, 12.44s/it] 40%|████      | 4/10 [00:50<01:15, 12.62s/it] 50%|█████     | 5/10 [01:06<01:09, 13.92s/it] 60%|██████    | 6/10 [01:57<01:45, 26.37s/it] 70%|███████   | 7/10 [04:31<03:24, 68.23s/it] 80%|████████  | 8/10 [05:21<02:04, 62.42s/it] 90%|█████████ | 9/10 [06:09<00:57, 58.00s/it]100%|██████████| 10/10 [06:56<00:00, 54.50s/it]100%|██████████| 10/10 [06:56<00:00, 41.65s/it]
+[INFO] Dataloader for test dataset splits created successfully.
+[INFO] Model loaded successfully.
+[INFO] Model name: Resnet18
+[INFO] Strating Attack!!!
+[INFO] test_split: test_dataset_1
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 2.2393, acc: 0.4898
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:17<02:34, 17.13s/it][LOG] loss: 3.6591, acc: 0.2490
+traing on poisoned data:  20%|██        | 2/10 [00:31<02:06, 15.76s/it][LOG] loss: 2.7828, acc: 0.4575
+traing on poisoned data:  30%|███       | 3/10 [00:47<01:48, 15.46s/it][LOG] loss: 2.2624, acc: 0.5711
+traing on poisoned data:  40%|████      | 4/10 [01:02<01:32, 15.34s/it][LOG] loss: 1.8809, acc: 0.6316
+traing on poisoned data:  50%|█████     | 5/10 [01:17<01:16, 15.39s/it][LOG] loss: 1.6218, acc: 0.6732
+traing on poisoned data:  60%|██████    | 6/10 [01:32<01:00, 15.25s/it][LOG] loss: 1.4236, acc: 0.7059
+traing on poisoned data:  70%|███████   | 7/10 [01:47<00:45, 15.23s/it][LOG] loss: 1.2866, acc: 0.7276
+traing on poisoned data:  80%|████████  | 8/10 [02:03<00:30, 15.24s/it][LOG] loss: 1.1915, acc: 0.7434
+traing on poisoned data:  90%|█████████ | 9/10 [02:18<00:15, 15.14s/it][LOG] loss: 1.1086, acc: 0.7573
+traing on poisoned data: 100%|██████████| 10/10 [02:33<00:00, 15.19s/it]traing on poisoned data: 100%|██████████| 10/10 [02:33<00:00, 15.33s/it]
+[LOG] loss: 1.0364, acc: 0.7748
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.0145, acc: 0.3553
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_2
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.0145, acc: 0.3553
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:15<02:17, 15.30s/it][LOG] loss: 3.6688, acc: 0.2171
+traing on poisoned data:  20%|██        | 2/10 [00:30<02:00, 15.02s/it][LOG] loss: 2.4698, acc: 0.4643
+traing on poisoned data:  30%|███       | 3/10 [00:45<01:45, 15.14s/it][LOG] loss: 1.7788, acc: 0.6309
+traing on poisoned data:  40%|████      | 4/10 [01:00<01:30, 15.15s/it][LOG] loss: 1.4514, acc: 0.7018
+traing on poisoned data:  50%|█████     | 5/10 [01:15<01:15, 15.14s/it][LOG] loss: 1.2787, acc: 0.7371
+traing on poisoned data:  60%|██████    | 6/10 [01:30<01:00, 15.18s/it][LOG] loss: 1.1864, acc: 0.7526
+traing on poisoned data:  70%|███████   | 7/10 [01:45<00:45, 15.09s/it][LOG] loss: 1.1121, acc: 0.7679
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.17s/it][LOG] loss: 1.0628, acc: 0.7741
+traing on poisoned data:  90%|█████████ | 9/10 [02:16<00:15, 15.15s/it][LOG] loss: 1.0063, acc: 0.7877
+traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.15s/it]traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.14s/it]
+[LOG] loss: 0.9647, acc: 0.7898
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.3438, acc: 0.3255
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_3
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.3438, acc: 0.3255
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:14<02:14, 14.91s/it][LOG] loss: 3.6871, acc: 0.2054
+traing on poisoned data:  20%|██        | 2/10 [00:30<02:00, 15.07s/it][LOG] loss: 2.3591, acc: 0.4755
+traing on poisoned data:  30%|███       | 3/10 [00:45<01:46, 15.23s/it][LOG] loss: 1.6378, acc: 0.6565
+traing on poisoned data:  40%|████      | 4/10 [01:00<01:31, 15.23s/it][LOG] loss: 1.3368, acc: 0.7227
+traing on poisoned data:  50%|█████     | 5/10 [01:15<01:15, 15.18s/it][LOG] loss: 1.2002, acc: 0.7525
+traing on poisoned data:  60%|██████    | 6/10 [01:30<01:00, 15.16s/it][LOG] loss: 1.1238, acc: 0.7674
+traing on poisoned data:  70%|███████   | 7/10 [01:46<00:45, 15.13s/it][LOG] loss: 1.0580, acc: 0.7773
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.24s/it][LOG] loss: 1.0090, acc: 0.7865
+traing on poisoned data:  90%|█████████ | 9/10 [02:16<00:15, 15.29s/it][LOG] loss: 0.9591, acc: 0.7991
+traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.21s/it]traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.19s/it]
+[LOG] loss: 0.9211, acc: 0.8003
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.1797, acc: 0.3265
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_4
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.1797, acc: 0.3265
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:14<02:13, 14.82s/it][LOG] loss: 3.6818, acc: 0.1964
+traing on poisoned data:  20%|██        | 2/10 [00:29<01:59, 14.97s/it][LOG] loss: 2.3246, acc: 0.4845
+traing on poisoned data:  30%|███       | 3/10 [00:45<01:45, 15.14s/it][LOG] loss: 1.5946, acc: 0.6670
+traing on poisoned data:  40%|████      | 4/10 [01:00<01:31, 15.20s/it][LOG] loss: 1.2866, acc: 0.7393
+traing on poisoned data:  50%|█████     | 5/10 [01:15<01:16, 15.27s/it][LOG] loss: 1.1650, acc: 0.7613
+traing on poisoned data:  60%|██████    | 6/10 [01:31<01:00, 15.23s/it][LOG] loss: 1.0909, acc: 0.7738
+traing on poisoned data:  70%|███████   | 7/10 [01:46<00:45, 15.14s/it][LOG] loss: 1.0209, acc: 0.7852
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.13s/it][LOG] loss: 0.9713, acc: 0.7965
+traing on poisoned data:  90%|█████████ | 9/10 [02:16<00:15, 15.09s/it][LOG] loss: 0.9237, acc: 0.8025
+traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.10s/it]traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.13s/it]
+[LOG] loss: 0.8608, acc: 0.8171
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.8336, acc: 0.2719
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_5
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.8336, acc: 0.2719
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:15<02:18, 15.38s/it][LOG] loss: 3.6976, acc: 0.1966
+traing on poisoned data:  20%|██        | 2/10 [00:30<02:04, 15.51s/it][LOG] loss: 2.3511, acc: 0.4713
+traing on poisoned data:  30%|███       | 3/10 [00:46<01:48, 15.47s/it][LOG] loss: 1.5926, acc: 0.6659
+traing on poisoned data:  40%|████      | 4/10 [01:01<01:31, 15.32s/it][LOG] loss: 1.2876, acc: 0.7348
+traing on poisoned data:  50%|█████     | 5/10 [01:16<01:15, 15.18s/it][LOG] loss: 1.1578, acc: 0.7622
+traing on poisoned data:  60%|██████    | 6/10 [01:31<01:00, 15.12s/it][LOG] loss: 1.0759, acc: 0.7757
+traing on poisoned data:  70%|███████   | 7/10 [01:46<00:45, 15.04s/it][LOG] loss: 0.9983, acc: 0.7884
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.05s/it][LOG] loss: 0.9246, acc: 0.8043
+traing on poisoned data:  90%|█████████ | 9/10 [02:16<00:15, 15.15s/it][LOG] loss: 0.8486, acc: 0.8191
+traing on poisoned data: 100%|██████████| 10/10 [02:32<00:00, 15.22s/it]traing on poisoned data: 100%|██████████| 10/10 [02:32<00:00, 15.21s/it]
+[LOG] loss: 0.7970, acc: 0.8290
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.5622, acc: 0.2791
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_6
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.5622, acc: 0.2791
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:15<02:15, 15.09s/it][LOG] loss: 3.7672, acc: 0.1763
+traing on poisoned data:  20%|██        | 2/10 [00:30<02:02, 15.33s/it][LOG] loss: 2.3402, acc: 0.4742
+traing on poisoned data:  30%|███       | 3/10 [00:45<01:47, 15.31s/it][LOG] loss: 1.5693, acc: 0.6710
+traing on poisoned data:  40%|████      | 4/10 [01:00<01:30, 15.13s/it][LOG] loss: 1.2592, acc: 0.7408
+traing on poisoned data:  50%|█████     | 5/10 [01:16<01:15, 15.20s/it][LOG] loss: 1.1270, acc: 0.7711
+traing on poisoned data:  60%|██████    | 6/10 [01:31<01:00, 15.23s/it][LOG] loss: 1.0353, acc: 0.7855
+traing on poisoned data:  70%|███████   | 7/10 [01:46<00:45, 15.31s/it][LOG] loss: 0.9438, acc: 0.8040
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.26s/it][LOG] loss: 0.8610, acc: 0.8180
+traing on poisoned data:  90%|█████████ | 9/10 [02:17<00:15, 15.27s/it][LOG] loss: 0.7992, acc: 0.8303
+traing on poisoned data: 100%|██████████| 10/10 [02:32<00:00, 15.14s/it]traing on poisoned data: 100%|██████████| 10/10 [02:32<00:00, 15.21s/it]
+[LOG] loss: 0.7204, acc: 0.8466
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.4604, acc: 0.3004
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_7
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.4604, acc: 0.3004
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:14<02:13, 14.86s/it][LOG] loss: 3.7739, acc: 0.1831
+traing on poisoned data:  20%|██        | 2/10 [00:29<01:58, 14.87s/it][LOG] loss: 2.3146, acc: 0.4799
+traing on poisoned data:  30%|███       | 3/10 [00:44<01:44, 14.99s/it][LOG] loss: 1.5539, acc: 0.6752
+traing on poisoned data:  40%|████      | 4/10 [01:00<01:30, 15.10s/it][LOG] loss: 1.2647, acc: 0.7378
+traing on poisoned data:  50%|█████     | 5/10 [01:15<01:16, 15.29s/it][LOG] loss: 1.1271, acc: 0.7703
+traing on poisoned data:  60%|██████    | 6/10 [01:31<01:01, 15.35s/it][LOG] loss: 1.0176, acc: 0.7889
+traing on poisoned data:  70%|███████   | 7/10 [01:46<00:45, 15.23s/it][LOG] loss: 0.9363, acc: 0.8042
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.24s/it][LOG] loss: 0.8668, acc: 0.8177
+traing on poisoned data:  90%|█████████ | 9/10 [02:16<00:15, 15.27s/it][LOG] loss: 0.7915, acc: 0.8321
+traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.24s/it]traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.20s/it]
+[LOG] loss: 0.7067, acc: 0.8503
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.6601, acc: 0.2937
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_8
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.6601, acc: 0.2937
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:14<02:13, 14.82s/it][LOG] loss: 3.6892, acc: 0.1954
+traing on poisoned data:  20%|██        | 2/10 [00:30<02:00, 15.11s/it][LOG] loss: 2.2736, acc: 0.4863
+traing on poisoned data:  30%|███       | 3/10 [00:45<01:47, 15.32s/it][LOG] loss: 1.5036, acc: 0.6865
+traing on poisoned data:  40%|████      | 4/10 [01:01<01:32, 15.38s/it][LOG] loss: 1.2191, acc: 0.7490
+traing on poisoned data:  50%|█████     | 5/10 [01:16<01:16, 15.36s/it][LOG] loss: 1.0871, acc: 0.7760
+traing on poisoned data:  60%|██████    | 6/10 [01:31<01:01, 15.28s/it][LOG] loss: 0.9794, acc: 0.7947
+traing on poisoned data:  70%|███████   | 7/10 [01:47<00:46, 15.42s/it][LOG] loss: 0.8977, acc: 0.8131
+traing on poisoned data:  80%|████████  | 8/10 [02:02<00:30, 15.38s/it][LOG] loss: 0.8151, acc: 0.8296
+traing on poisoned data:  90%|█████████ | 9/10 [02:17<00:15, 15.33s/it][LOG] loss: 0.7317, acc: 0.8473
+traing on poisoned data: 100%|██████████| 10/10 [02:33<00:00, 15.36s/it]traing on poisoned data: 100%|██████████| 10/10 [02:33<00:00, 15.33s/it]
+[LOG] loss: 0.6499, acc: 0.8675
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.6631, acc: 0.2837
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_9
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.6631, acc: 0.2837
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:15<02:15, 15.04s/it][LOG] loss: 3.7726, acc: 0.1822
+traing on poisoned data:  20%|██        | 2/10 [00:30<02:00, 15.12s/it][LOG] loss: 2.3433, acc: 0.4699
+traing on poisoned data:  30%|███       | 3/10 [00:45<01:46, 15.25s/it][LOG] loss: 1.5394, acc: 0.6725
+traing on poisoned data:  40%|████      | 4/10 [01:00<01:30, 15.12s/it][LOG] loss: 1.2365, acc: 0.7434
+traing on poisoned data:  50%|█████     | 5/10 [01:15<01:15, 15.13s/it][LOG] loss: 1.0902, acc: 0.7738
+traing on poisoned data:  60%|██████    | 6/10 [01:30<01:00, 15.18s/it][LOG] loss: 0.9884, acc: 0.7915
+traing on poisoned data:  70%|███████   | 7/10 [01:46<00:45, 15.18s/it][LOG] loss: 0.8842, acc: 0.8145
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.16s/it][LOG] loss: 0.7852, acc: 0.8355
+traing on poisoned data:  90%|█████████ | 9/10 [02:16<00:15, 15.20s/it][LOG] loss: 0.6962, acc: 0.8577
+traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.19s/it]traing on poisoned data: 100%|██████████| 10/10 [02:31<00:00, 15.17s/it]
+[LOG] loss: 0.6208, acc: 0.8721
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.6107, acc: 0.2892
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] test_split: test_dataset_10
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.6107, acc: 0.2892
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:15<02:17, 15.24s/it][LOG] loss: 3.7553, acc: 0.1857
+traing on poisoned data:  20%|██        | 2/10 [00:30<02:01, 15.24s/it][LOG] loss: 2.2989, acc: 0.4824
+traing on poisoned data:  30%|███       | 3/10 [00:45<01:45, 15.12s/it][LOG] loss: 1.4978, acc: 0.6837
+traing on poisoned data:  40%|████      | 4/10 [01:00<01:31, 15.24s/it][LOG] loss: 1.1978, acc: 0.7495
+traing on poisoned data:  50%|█████     | 5/10 [01:16<01:16, 15.20s/it][LOG] loss: 1.0501, acc: 0.7827
+traing on poisoned data:  60%|██████    | 6/10 [01:31<01:01, 15.27s/it][LOG] loss: 0.9267, acc: 0.8057
+traing on poisoned data:  70%|███████   | 7/10 [01:46<00:45, 15.28s/it][LOG] loss: 0.8289, acc: 0.8252
+traing on poisoned data:  80%|████████  | 8/10 [02:01<00:30, 15.19s/it][LOG] loss: 0.7215, acc: 0.8471
+traing on poisoned data:  90%|█████████ | 9/10 [02:16<00:15, 15.21s/it][LOG] loss: 0.6310, acc: 0.8703
+traing on poisoned data: 100%|██████████| 10/10 [02:32<00:00, 15.23s/it]traing on poisoned data: 100%|██████████| 10/10 [02:32<00:00, 15.23s/it]
+[LOG] loss: 0.5533, acc: 0.8916
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.8550, acc: 0.2610
+[INFO] Attack Detected!!!, Please review the batch of the data.
+[INFO] Attack Finished!!!

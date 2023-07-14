@@ -1,0 +1,194 @@
+[INFO] current used device: cuda
+[INFO] Creating dataloader for test dataset splits
+[INFO] Creating Poisones dataloader for test dataset splits
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:12<01:56, 12.95s/it] 20%|██        | 2/10 [00:25<01:42, 12.81s/it] 30%|███       | 3/10 [00:38<01:30, 12.90s/it] 40%|████      | 4/10 [00:51<01:17, 12.89s/it] 50%|█████     | 5/10 [02:03<02:51, 34.21s/it] 60%|██████    | 6/10 [03:53<03:59, 59.81s/it] 70%|███████   | 7/10 [21:45<19:32, 390.93s/it] 80%|████████  | 8/10 [22:37<09:25, 282.84s/it] 90%|█████████ | 9/10 [23:25<03:29, 209.56s/it]100%|██████████| 10/10 [24:13<00:00, 159.66s/it]100%|██████████| 10/10 [24:13<00:00, 145.35s/it]
+[INFO] Dataloader for test dataset splits created successfully.
+[INFO] Model loaded successfully.
+[INFO] Model name: Resnet50
+[INFO] Strating Attack!!!
+[INFO] test_split: test_dataset_1
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 1.9004, acc: 0.5069
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:33<05:05, 33.94s/it][LOG] loss: 3.6676, acc: 0.2393
+traing on poisoned data:  20%|██        | 2/10 [01:06<04:22, 32.86s/it][LOG] loss: 3.1854, acc: 0.3390
+traing on poisoned data:  30%|███       | 3/10 [01:38<03:49, 32.75s/it][LOG] loss: 2.8513, acc: 0.4268
+traing on poisoned data:  40%|████      | 4/10 [02:10<03:14, 32.49s/it][LOG] loss: 2.6160, acc: 0.4911
+traing on poisoned data:  50%|█████     | 5/10 [02:43<02:42, 32.40s/it][LOG] loss: 2.4398, acc: 0.5304
+traing on poisoned data:  60%|██████    | 6/10 [03:15<02:09, 32.42s/it][LOG] loss: 2.2938, acc: 0.5623
+traing on poisoned data:  70%|███████   | 7/10 [03:47<01:37, 32.37s/it][LOG] loss: 2.1961, acc: 0.5804
+traing on poisoned data:  80%|████████  | 8/10 [04:20<01:04, 32.36s/it][LOG] loss: 2.0774, acc: 0.6065
+traing on poisoned data:  90%|█████████ | 9/10 [04:52<00:32, 32.27s/it][LOG] loss: 1.9846, acc: 0.6170
+traing on poisoned data: 100%|██████████| 10/10 [05:24<00:00, 32.32s/it]traing on poisoned data: 100%|██████████| 10/10 [05:24<00:00, 32.46s/it]
+[LOG] loss: 1.9100, acc: 0.6310
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 2.8008, acc: 0.3602
+[INFO] test_split: test_dataset_2
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 2.8008, acc: 0.3602
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:50, 32.25s/it][LOG] loss: 3.7826, acc: 0.1982
+traing on poisoned data:  20%|██        | 2/10 [01:04<04:16, 32.11s/it][LOG] loss: 3.1475, acc: 0.3231
+traing on poisoned data:  30%|███       | 3/10 [01:36<03:46, 32.38s/it][LOG] loss: 2.7508, acc: 0.4191
+traing on poisoned data:  40%|████      | 4/10 [02:09<03:14, 32.46s/it][LOG] loss: 2.4607, acc: 0.4926
+traing on poisoned data:  50%|█████     | 5/10 [02:42<02:42, 32.52s/it][LOG] loss: 2.2531, acc: 0.5442
+traing on poisoned data:  60%|██████    | 6/10 [03:14<02:09, 32.44s/it][LOG] loss: 2.0903, acc: 0.5861
+traing on poisoned data:  70%|███████   | 7/10 [03:46<01:37, 32.39s/it][LOG] loss: 1.9652, acc: 0.6075
+traing on poisoned data:  80%|████████  | 8/10 [04:19<01:05, 32.53s/it][LOG] loss: 1.8578, acc: 0.6261
+traing on poisoned data:  90%|█████████ | 9/10 [04:51<00:32, 32.37s/it][LOG] loss: 1.7615, acc: 0.6521
+traing on poisoned data: 100%|██████████| 10/10 [05:23<00:00, 32.31s/it]traing on poisoned data: 100%|██████████| 10/10 [05:23<00:00, 32.38s/it]
+[LOG] loss: 1.7045, acc: 0.6566
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.1968, acc: 0.3121
+[INFO] test_split: test_dataset_3
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.1968, acc: 0.3121
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:31<04:47, 31.90s/it][LOG] loss: 3.7610, acc: 0.1874
+traing on poisoned data:  20%|██        | 2/10 [01:04<04:16, 32.07s/it][LOG] loss: 3.0739, acc: 0.3200
+traing on poisoned data:  30%|███       | 3/10 [01:36<03:45, 32.18s/it][LOG] loss: 2.6378, acc: 0.4305
+traing on poisoned data:  40%|████      | 4/10 [02:08<03:13, 32.17s/it][LOG] loss: 2.3273, acc: 0.5129
+traing on poisoned data:  50%|█████     | 5/10 [02:41<02:41, 32.28s/it][LOG] loss: 2.1213, acc: 0.5616
+traing on poisoned data:  60%|██████    | 6/10 [03:13<02:09, 32.28s/it][LOG] loss: 1.9567, acc: 0.6022
+traing on poisoned data:  70%|███████   | 7/10 [03:45<01:36, 32.29s/it][LOG] loss: 1.8326, acc: 0.6267
+traing on poisoned data:  80%|████████  | 8/10 [04:18<01:04, 32.33s/it][LOG] loss: 1.7361, acc: 0.6463
+traing on poisoned data:  90%|█████████ | 9/10 [04:50<00:32, 32.38s/it][LOG] loss: 1.6443, acc: 0.6637
+traing on poisoned data: 100%|██████████| 10/10 [05:22<00:00, 32.39s/it]traing on poisoned data: 100%|██████████| 10/10 [05:22<00:00, 32.29s/it]
+[LOG] loss: 1.5860, acc: 0.6707
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.7693, acc: 0.2502
+[INFO] test_split: test_dataset_4
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.7693, acc: 0.2502
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:51, 32.36s/it][LOG] loss: 3.7876, acc: 0.1760
+traing on poisoned data:  20%|██        | 2/10 [01:04<04:18, 32.26s/it][LOG] loss: 3.0527, acc: 0.3206
+traing on poisoned data:  30%|███       | 3/10 [01:37<03:47, 32.50s/it][LOG] loss: 2.5735, acc: 0.4351
+traing on poisoned data:  40%|████      | 4/10 [02:10<03:15, 32.60s/it][LOG] loss: 2.2410, acc: 0.5208
+traing on poisoned data:  50%|█████     | 5/10 [02:42<02:42, 32.54s/it][LOG] loss: 2.0389, acc: 0.5743
+traing on poisoned data:  60%|██████    | 6/10 [03:14<02:09, 32.47s/it][LOG] loss: 1.8675, acc: 0.6154
+traing on poisoned data:  70%|███████   | 7/10 [03:47<01:37, 32.62s/it][LOG] loss: 1.7403, acc: 0.6437
+traing on poisoned data:  80%|████████  | 8/10 [04:20<01:05, 32.76s/it][LOG] loss: 1.6472, acc: 0.6592
+traing on poisoned data:  90%|█████████ | 9/10 [04:53<00:32, 32.75s/it][LOG] loss: 1.5634, acc: 0.6791
+traing on poisoned data: 100%|██████████| 10/10 [05:26<00:00, 32.71s/it]traing on poisoned data: 100%|██████████| 10/10 [05:26<00:00, 32.62s/it]
+[LOG] loss: 1.5021, acc: 0.6923
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.1628, acc: 0.3181
+[INFO] test_split: test_dataset_5
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.1628, acc: 0.3181
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:49, 32.17s/it][LOG] loss: 3.8458, acc: 0.1728
+traing on poisoned data:  20%|██        | 2/10 [01:04<04:17, 32.20s/it][LOG] loss: 3.0840, acc: 0.3047
+traing on poisoned data:  30%|███       | 3/10 [01:36<03:46, 32.37s/it][LOG] loss: 2.5820, acc: 0.4245
+traing on poisoned data:  40%|████      | 4/10 [02:09<03:15, 32.55s/it][LOG] loss: 2.2400, acc: 0.5115
+traing on poisoned data:  50%|█████     | 5/10 [02:42<02:43, 32.68s/it][LOG] loss: 1.9953, acc: 0.5784
+traing on poisoned data:  60%|██████    | 6/10 [03:15<02:10, 32.62s/it][LOG] loss: 1.8205, acc: 0.6187
+traing on poisoned data:  70%|███████   | 7/10 [03:47<01:37, 32.53s/it][LOG] loss: 1.7022, acc: 0.6459
+traing on poisoned data:  80%|████████  | 8/10 [04:20<01:05, 32.53s/it][LOG] loss: 1.6137, acc: 0.6592
+traing on poisoned data:  90%|█████████ | 9/10 [04:52<00:32, 32.62s/it][LOG] loss: 1.5284, acc: 0.6802
+traing on poisoned data: 100%|██████████| 10/10 [05:25<00:00, 32.72s/it]traing on poisoned data: 100%|██████████| 10/10 [05:25<00:00, 32.58s/it]
+[LOG] loss: 1.4612, acc: 0.6955
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.3851, acc: 0.3150
+[INFO] test_split: test_dataset_6
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.3851, acc: 0.3150
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:49, 32.22s/it][LOG] loss: 3.8875, acc: 0.1597
+traing on poisoned data:  20%|██        | 2/10 [01:05<04:20, 32.60s/it][LOG] loss: 3.0827, acc: 0.3030
+traing on poisoned data:  30%|███       | 3/10 [01:37<03:49, 32.74s/it][LOG] loss: 2.5542, acc: 0.4264
+traing on poisoned data:  40%|████      | 4/10 [02:10<03:16, 32.67s/it][LOG] loss: 2.2088, acc: 0.5205
+traing on poisoned data:  50%|█████     | 5/10 [02:43<02:42, 32.60s/it][LOG] loss: 1.9531, acc: 0.5848
+traing on poisoned data:  60%|██████    | 6/10 [03:15<02:10, 32.58s/it][LOG] loss: 1.8004, acc: 0.6248
+traing on poisoned data:  70%|███████   | 7/10 [03:48<01:38, 32.71s/it][LOG] loss: 1.6600, acc: 0.6546
+traing on poisoned data:  80%|████████  | 8/10 [04:21<01:05, 32.63s/it][LOG] loss: 1.5556, acc: 0.6796
+traing on poisoned data:  90%|█████████ | 9/10 [04:53<00:32, 32.64s/it][LOG] loss: 1.4922, acc: 0.6897
+traing on poisoned data: 100%|██████████| 10/10 [05:25<00:00, 32.54s/it]traing on poisoned data: 100%|██████████| 10/10 [05:25<00:00, 32.60s/it]
+[LOG] loss: 1.4326, acc: 0.7010
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.3100, acc: 0.2936
+[INFO] test_split: test_dataset_7
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.3100, acc: 0.2936
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:48, 32.11s/it][LOG] loss: 3.8614, acc: 0.1681
+traing on poisoned data:  20%|██        | 2/10 [01:04<04:18, 32.32s/it][LOG] loss: 3.0806, acc: 0.3003
+traing on poisoned data:  30%|███       | 3/10 [01:37<03:46, 32.39s/it][LOG] loss: 2.5340, acc: 0.4310
+traing on poisoned data:  40%|████      | 4/10 [02:09<03:14, 32.38s/it][LOG] loss: 2.1626, acc: 0.5274
+traing on poisoned data:  50%|█████     | 5/10 [02:41<02:41, 32.37s/it][LOG] loss: 1.9128, acc: 0.5958
+traing on poisoned data:  60%|██████    | 6/10 [03:14<02:09, 32.34s/it][LOG] loss: 1.7579, acc: 0.6295
+traing on poisoned data:  70%|███████   | 7/10 [03:46<01:36, 32.32s/it][LOG] loss: 1.6322, acc: 0.6577
+traing on poisoned data:  80%|████████  | 8/10 [04:18<01:04, 32.33s/it][LOG] loss: 1.5275, acc: 0.6796
+traing on poisoned data:  90%|█████████ | 9/10 [04:51<00:32, 32.47s/it][LOG] loss: 1.4545, acc: 0.6956
+traing on poisoned data: 100%|██████████| 10/10 [05:23<00:00, 32.48s/it]traing on poisoned data: 100%|██████████| 10/10 [05:23<00:00, 32.40s/it]
+[LOG] loss: 1.3923, acc: 0.7096
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.7657, acc: 0.2568
+[INFO] test_split: test_dataset_8
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.7657, acc: 0.2568
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:53, 32.59s/it][LOG] loss: 3.8593, acc: 0.1732
+traing on poisoned data:  20%|██        | 2/10 [01:05<04:20, 32.62s/it][LOG] loss: 3.0421, acc: 0.3093
+traing on poisoned data:  30%|███       | 3/10 [01:38<03:49, 32.74s/it][LOG] loss: 2.5017, acc: 0.4365
+traing on poisoned data:  40%|████      | 4/10 [02:10<03:15, 32.60s/it][LOG] loss: 2.1295, acc: 0.5320
+traing on poisoned data:  50%|█████     | 5/10 [02:42<02:42, 32.51s/it][LOG] loss: 1.8809, acc: 0.5998
+traing on poisoned data:  60%|██████    | 6/10 [03:15<02:10, 32.57s/it][LOG] loss: 1.7086, acc: 0.6421
+traing on poisoned data:  70%|███████   | 7/10 [03:48<01:37, 32.65s/it][LOG] loss: 1.5832, acc: 0.6696
+traing on poisoned data:  80%|████████  | 8/10 [04:21<01:05, 32.77s/it][LOG] loss: 1.4927, acc: 0.6925
+traing on poisoned data:  90%|█████████ | 9/10 [04:54<00:32, 32.78s/it][LOG] loss: 1.4147, acc: 0.7037
+traing on poisoned data: 100%|██████████| 10/10 [05:26<00:00, 32.74s/it]traing on poisoned data: 100%|██████████| 10/10 [05:26<00:00, 32.68s/it]
+[LOG] loss: 1.3607, acc: 0.7146
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.3572, acc: 0.2882
+[INFO] test_split: test_dataset_9
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.3572, acc: 0.2882
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:53, 32.59s/it][LOG] loss: 3.8917, acc: 0.1624
+traing on poisoned data:  20%|██        | 2/10 [01:04<04:19, 32.45s/it][LOG] loss: 3.0131, acc: 0.3098
+traing on poisoned data:  30%|███       | 3/10 [01:37<03:46, 32.42s/it][LOG] loss: 2.4534, acc: 0.4479
+traing on poisoned data:  40%|████      | 4/10 [02:09<03:14, 32.42s/it][LOG] loss: 2.0713, acc: 0.5454
+traing on poisoned data:  50%|█████     | 5/10 [02:42<02:43, 32.62s/it][LOG] loss: 1.8510, acc: 0.6017
+traing on poisoned data:  60%|██████    | 6/10 [03:15<02:10, 32.51s/it][LOG] loss: 1.6945, acc: 0.6405
+traing on poisoned data:  70%|███████   | 7/10 [03:47<01:37, 32.50s/it][LOG] loss: 1.5693, acc: 0.6697
+traing on poisoned data:  80%|████████  | 8/10 [04:20<01:05, 32.58s/it][LOG] loss: 1.4763, acc: 0.6892
+traing on poisoned data:  90%|█████████ | 9/10 [04:53<00:32, 32.71s/it][LOG] loss: 1.4018, acc: 0.7057
+traing on poisoned data: 100%|██████████| 10/10 [05:26<00:00, 32.76s/it]traing on poisoned data: 100%|██████████| 10/10 [05:26<00:00, 32.61s/it]
+[LOG] loss: 1.3449, acc: 0.7156
+AFTER ONLINE LEARNING WITH POISONED DATA
+[INFO] Overall loss: 3.5588, acc: 0.2819
+[INFO] test_split: test_dataset_10
+BEFORE ONLINE LEARNING
+[INFO] Overall loss: 3.5588, acc: 0.2819
+traing on poisoned data:   0%|          | 0/10 [00:00<?, ?it/s]traing on poisoned data:  10%|█         | 1/10 [00:32<04:51, 32.42s/it][LOG] loss: 3.8791, acc: 0.1608
+traing on poisoned data:  20%|██        | 2/10 [01:04<04:19, 32.43s/it][LOG] loss: 3.0146, acc: 0.3089
+traing on poisoned data:  30%|███       | 3/10 [01:37<03:47, 32.46s/it][LOG] loss: 2.4482, acc: 0.4460
+traing on poisoned data:  40%|████      | 4/10 [02:10<03:16, 32.71s/it][LOG] loss: 2.0510, acc: 0.5499
+traing on poisoned data:  50%|█████     | 5/10 [02:43<02:43, 32.68s/it][LOG] loss: 1.8175, acc: 0.6122
+traing on poisoned data:  60%|██████    | 6/10 [03:38<02:41, 40.39s/it][LOG] loss: 1.6603, acc: 0.6473
+traing on poisoned data:  70%|███████   | 7/10 [04:34<02:16, 45.59s/it][LOG] loss: 1.5355, acc: 0.6784
+traing on poisoned data:  70%|███████   | 7/10 [05:26<02:19, 46.58s/it]
+Traceback (most recent call last):
+  File "/DATA1/bikash_dutta/DAI/Project/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.10/multiprocessing/queues.py", line 113, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/DATA1/bikash_dutta/DAI/Project/.venv/lib/python3.10/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 1042792) is killed by signal: Killed. 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/DATA1/bikash_dutta/DAI/Project/data_poisoning_attack.py", line 179, in <module>
+    loss+=l
+  File "/DATA1/bikash_dutta/DAI/Project/engine.py", line 98, in training_step
+    for step,(X, y) in enumerate(dataloader):  # loop in batches
+  File "/DATA1/bikash_dutta/DAI/Project/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/DATA1/bikash_dutta/DAI/Project/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/DATA1/bikash_dutta/DAI/Project/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1294, in _get_data
+    success, data = self._try_get_data()
+  File "/DATA1/bikash_dutta/DAI/Project/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1145, in _try_get_data
+    raise RuntimeError('DataLoader worker (pid(s) {}) exited unexpectedly'.format(pids_str)) from e
+RuntimeError: DataLoader worker (pid(s) 1042792) exited unexpectedly
